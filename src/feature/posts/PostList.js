@@ -7,8 +7,8 @@ const PostList = () => {
 
  const renderPost = posts.map(post => (
     <section>
-        <p>{post.name}</p>
-        <p>{post.author}</p>
+        <p>{post.title}</p>
+        <p>{post.content}</p>
     </section>
  ))
 
